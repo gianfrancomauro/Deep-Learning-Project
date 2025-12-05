@@ -85,8 +85,6 @@ def main():
     test_loader  = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
     # -----------------------------------------------------
-    # Instantiate your LSTM Isoformer
-    # -----------------------------------------------------
 
     model = LSTMIsoformer(
         input_dim=n_genes,
@@ -123,10 +121,6 @@ def main():
     val_corrs = history["val_corr"]
 
     print("Training finished.")
-
-    # -----------------------------
-    # Save final metrics & Plots
-    # -----------------------------
     
     # Plot history
     plot_history(

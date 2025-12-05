@@ -141,8 +141,8 @@ def main():
         "dropout": DROPOUT,
     }
 
-with mlflow.start_run() as run:
-    mlflow.log_params(params)
+    with mlflow.start_run() as run:
+        mlflow.log_params(params)
 
         history = train_transformer(
             model,
