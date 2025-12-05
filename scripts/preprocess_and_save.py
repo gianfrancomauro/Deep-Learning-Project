@@ -1,7 +1,7 @@
 from pathlib import Path
 from scripts.data import load_geneaware, save_preprocessed_data, load_preprocessed_data
 
-# Configuration - match your training settings
+# Configuration - match your training settings if you want to run on your machine
 DATA_DIR = Path("/zhome/af/a/221977/data")
 
 # Point to the held-out split
