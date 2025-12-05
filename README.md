@@ -1,4 +1,4 @@
-# Deep Learning for Single-Cell RNA-seq Analysis
+# Predicting Isoform Expression from Gene-Level Profiles using Representation Learning
 
 A comparison of deep learning approaches for analyzing single-cell gene expression data. 
 
