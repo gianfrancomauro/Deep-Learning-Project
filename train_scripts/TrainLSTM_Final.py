@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from scripts.plots import plot_history, plot_residuals
 from scripts.utils import set_seed, pearson_corr, classification_error, EarlyStopping
-from scripts.train_lstm import train_LSTM
+from scripts.train import train_LSTM
 from scripts.data import load_standard_hvg
 from scripts.models import LSTMIsoformer  
 
